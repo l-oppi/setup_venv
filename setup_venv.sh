@@ -7,3 +7,9 @@ pip install --upgrade pip setuptools wheel
 git init
 touch .gitignore
 touch README.md
+
+# Add content to .gitignore
+echo "venv" > .gitignore
+echo "setup_venv.sh" >> .gitignore
+echo "*py[cod]" >> .gitignore
+echo "__pycache__" >> .gitignore
